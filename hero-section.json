@@ -11,7 +11,7 @@
       "colorStart": "#0056B3",
       "colorEnd": "#163A8C",
       "icon": "edit-3",
-      "url": "https://upscholarships.in/#up-scholarship-registration",
+      "url": "https://upscholarships.in/up-scholarship-registration/",
       "order": 1,
       "active": true,
       "isNew": false
@@ -27,7 +27,7 @@
       "colorStart": "#059669",
       "colorEnd": "#047857",
       "icon": "activity",
-      "url": "https://upscholarships.in/#status-check",
+      "url": "https://upscholarships.in/up-scholarship-status/",
       "order": 2,
       "active": true,
       "isNew": false
@@ -43,7 +43,7 @@
       "colorStart": "#7C3AED",
       "colorEnd": "#5B21B6",
       "icon": "log-in",
-      "url": "https://upscholarships.in/#up-scholarship-login",
+      "url": "https://upscholarships.in/up-scholarship-login/",
       "order": 3,
       "active": true,
       "isNew": false
