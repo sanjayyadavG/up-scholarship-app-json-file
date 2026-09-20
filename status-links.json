@@ -1,5 +1,5 @@
 {
-  "_readme": "enabled=false karne par wo link/section app se hat jata hai. comingSoon=true karne par button dikhega par 'Coming soon' likha aayega. Sections ka kram 'order' se, andar ke links ka kram jis tarah likhe hain usi se.",
+  "_readme": "enabled=false karne par wo link/section app se hat jata hai. comingSoon=true karne par button dikhega par 'Coming soon' likha aayega. Sections ka kram 'order' se, andar ke links ka kram jis tarah likhe hain usi se. buttonEn/buttonHi = us section ke buttons ka text.",
   "version": 1,
   "sections": [
     {
@@ -7,10 +7,12 @@
       "type": "toggleList",
       "order": 1,
       "enabled": true,
-      "titleEn": "Current session status",
-      "titleHi": "वर्तमान सत्र का स्टेटस",
-      "subtitleEn": "Choose your type and class",
-      "subtitleHi": "अपना प्रकार और कक्षा चुनें",
+      "titleEn": "Login and status (current session)",
+      "titleHi": "लॉगिन और स्टेटस (वर्तमान सत्र)",
+      "subtitleEn": "Fresh = new course · Renewal = continuing the same course",
+      "subtitleHi": "फ्रेश = नया कोर्स · रिन्यूअल = वही कोर्स आगे",
+      "buttonEn": "Login / Status",
+      "buttonHi": "लॉगिन / स्टेटस",
       "tabs": [
         {
           "id": "fresh",
@@ -37,12 +39,26 @@
           ]
         }
       ],
-      "help": { "titleEn": "How to check status", "titleHi": "स्टेटस कैसे चेक करें", "url": "https://upscholarships.in/up-scholarship-status/", "enabled": true }
+      "help": { "titleEn": "How to login and check status", "titleHi": "लॉगिन और स्टेटस कैसे चेक करें", "url": "https://upscholarships.in/up-scholarship-status/", "enabled": true }
+    },
+    {
+      "id": "login-help",
+      "type": "buttons",
+      "order": 2,
+      "enabled": true,
+      "titleEn": "Login problem?",
+      "titleHi": "लॉगिन में दिक्कत?",
+      "subtitleEn": "Can't login? Fix it here",
+      "subtitleHi": "लॉगिन नहीं हो रहा? यहाँ ठीक करें",
+      "items": [
+        { "id": "password-reset", "titleEn": "Forgot password? Reset guide", "titleHi": "पासवर्ड भूल गए? रीसेट गाइड", "url": "https://upscholarships.in/up-scholarship-password-change-reset-guide/", "icon": "key", "color": "#B45309", "enabled": true, "comingSoon": false },
+        { "id": "find-old-reg", "titleEn": "Find old registration number", "titleHi": "पुराना रजिस्ट्रेशन नंबर खोजें", "url": "https://upscholarships.in/up-scholarship-old-registration-number-find/", "icon": "search", "color": "#B45309", "enabled": true, "comingSoon": false }
+      ]
     },
     {
       "id": "yearwise",
       "type": "yearGrid",
-      "order": 2,
+      "order": 3,
       "enabled": true,
       "titleEn": "Year-wise status",
       "titleHi": "साल-दर-साल स्टेटस",
@@ -65,7 +81,7 @@
     {
       "id": "pfms",
       "type": "buttons",
-      "order": 3,
+      "order": 4,
       "enabled": true,
       "titleEn": "PFMS payment status",
       "titleHi": "PFMS भुगतान स्टेटस",
@@ -80,7 +96,7 @@
     {
       "id": "npci-aadhaar",
       "type": "cards",
-      "order": 4,
+      "order": 5,
       "enabled": true,
       "titleEn": "NPCI and Aadhaar link",
       "titleHi": "NPCI और आधार लिंक",
@@ -118,7 +134,7 @@
     {
       "id": "fund",
       "type": "yearGrid",
-      "order": 5,
+      "order": 6,
       "enabled": true,
       "titleEn": "Fund released, district-wise",
       "titleHi": "फंड रिलीज़, जिला-वार",
@@ -135,7 +151,7 @@
     {
       "id": "official",
       "type": "links",
-      "order": 6,
+      "order": 7,
       "enabled": true,
       "titleEn": "Official websites",
       "titleHi": "आधिकारिक वेबसाइट",
