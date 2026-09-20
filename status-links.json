@@ -1,0 +1,152 @@
+{
+  "_readme": "enabled=false karne par wo link/section app se hat jata hai. comingSoon=true karne par button dikhega par 'Coming soon' likha aayega. Sections ka kram 'order' se, andar ke links ka kram jis tarah likhe hain usi se.",
+  "version": 1,
+  "sections": [
+    {
+      "id": "current",
+      "type": "toggleList",
+      "order": 1,
+      "enabled": true,
+      "titleEn": "Current session status",
+      "titleHi": "वर्तमान सत्र का स्टेटस",
+      "subtitleEn": "Choose your type and class",
+      "subtitleHi": "अपना प्रकार और कक्षा चुनें",
+      "tabs": [
+        {
+          "id": "fresh",
+          "titleEn": "Fresh",
+          "titleHi": "फ्रेश",
+          "color": "#15803D",
+          "items": [
+            { "id": "fresh-9-10", "titleEn": "Class 9, 10", "titleHi": "कक्षा 9, 10", "url": "https://scholarship.up.gov.in/LoginStudentPreFresh.aspx", "enabled": true, "comingSoon": false },
+            { "id": "fresh-11-12", "titleEn": "Class 11, 12", "titleHi": "कक्षा 11, 12", "url": "https://scholarship.up.gov.in/LoginStudentPostInter.aspx", "enabled": true, "comingSoon": false },
+            { "id": "fresh-ug-pg", "titleEn": "UG / PG / Diploma", "titleHi": "UG / PG / डिप्लोमा", "url": "https://scholarship.up.gov.in/LoginStudentPost.aspx", "enabled": true, "comingSoon": false },
+            { "id": "fresh-other-state", "titleEn": "Other State", "titleHi": "अन्य राज्य", "url": "https://scholarship.up.gov.in/LoginStudentPostOS.aspx", "enabled": true, "comingSoon": false }
+          ]
+        },
+        {
+          "id": "renewal",
+          "titleEn": "Renewal",
+          "titleHi": "रिन्यूअल",
+          "color": "#9F1239",
+          "items": [
+            { "id": "renewal-10", "titleEn": "Class 10", "titleHi": "कक्षा 10", "url": "https://scholarship.up.gov.in/LoginStudentPreRenew.aspx", "enabled": true, "comingSoon": false },
+            { "id": "renewal-12", "titleEn": "Class 12", "titleHi": "कक्षा 12", "url": "https://scholarship.up.gov.in/LoginStudentPostRenewInter.aspx", "enabled": true, "comingSoon": false },
+            { "id": "renewal-ug-pg", "titleEn": "UG / PG / Diploma", "titleHi": "UG / PG / डिप्लोमा", "url": "https://scholarship.up.gov.in/LoginStudentPostRenew.aspx", "enabled": true, "comingSoon": false },
+            { "id": "renewal-other-state", "titleEn": "Other State", "titleHi": "अन्य राज्य", "url": "https://scholarship.up.gov.in/LoginStudentPostRenewOS.aspx", "enabled": true, "comingSoon": false }
+          ]
+        }
+      ],
+      "help": { "titleEn": "How to check status", "titleHi": "स्टेटस कैसे चेक करें", "url": "https://upscholarships.in/up-scholarship-status/", "enabled": true }
+    },
+    {
+      "id": "yearwise",
+      "type": "yearGrid",
+      "order": 2,
+      "enabled": true,
+      "titleEn": "Year-wise status",
+      "titleHi": "साल-दर-साल स्टेटस",
+      "subtitleEn": "Registration no. and date of birth needed",
+      "subtitleHi": "रजिस्ट्रेशन नंबर और जन्म-तिथि चाहिए",
+      "olderTitleEn": "Older years (2017-18 to 2021-22)",
+      "olderTitleHi": "पुराने साल (2017-18 से 2021-22)",
+      "items": [
+        { "id": "status-2526", "titleEn": "2025-26", "titleHi": "2025-26", "url": "https://scholarship.up.gov.in/status2526.aspx", "badgeEn": "New", "badgeHi": "नया", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "status-2425", "titleEn": "2024-25", "titleHi": "2024-25", "url": "https://scholarship.up.gov.in/status2425.aspx", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "status-2324", "titleEn": "2023-24", "titleHi": "2023-24", "url": "https://scholarship.up.gov.in/status2324.aspx", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "status-2223", "titleEn": "2022-23", "titleHi": "2022-23", "url": "https://scholarship.up.gov.in/status2223.aspx", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "status-2122", "titleEn": "2021-22", "titleHi": "2021-22", "url": "https://scholarship.up.gov.in/status2122.aspx", "older": true, "enabled": true, "comingSoon": false },
+        { "id": "status-2021", "titleEn": "2020-21", "titleHi": "2020-21", "url": "https://scholarship.up.gov.in/status2021.aspx", "older": true, "enabled": true, "comingSoon": false },
+        { "id": "status-1920", "titleEn": "2019-20", "titleHi": "2019-20", "url": "https://scholarship.up.gov.in/status1920.aspx", "older": true, "enabled": true, "comingSoon": false },
+        { "id": "status-1819", "titleEn": "2018-19", "titleHi": "2018-19", "url": "https://scholarship.up.gov.in/status1819.aspx", "older": true, "enabled": true, "comingSoon": false },
+        { "id": "status-1718", "titleEn": "2017-18", "titleHi": "2017-18", "url": "https://scholarship.up.gov.in/status1718.aspx", "older": true, "enabled": true, "comingSoon": false }
+      ]
+    },
+    {
+      "id": "pfms",
+      "type": "buttons",
+      "order": 3,
+      "enabled": true,
+      "titleEn": "PFMS payment status",
+      "titleHi": "PFMS भुगतान स्टेटस",
+      "subtitleEn": "Check if the money reached your bank",
+      "subtitleHi": "देखें पैसा बैंक खाते में आया या नहीं",
+      "items": [
+        { "id": "pfms-bank", "titleEn": "By bank account", "titleHi": "बैंक खाते से", "url": "https://pfms.nic.in/SitePages/KnowYourPayment_Dw_NewNew.aspx", "icon": "credit-card", "color": "#2563EB", "enabled": true, "comingSoon": false },
+        { "id": "pfms-dbt", "titleEn": "DBT status by registration no.", "titleHi": "रजिस्ट्रेशन नंबर से DBT स्टेटस", "url": "https://pfms.nic.in/SitePages/DBT_StatusTracker.aspx", "icon": "hash", "color": "#2563EB", "enabled": true, "comingSoon": false }
+      ],
+      "help": { "titleEn": "Help: PFMS status step by step", "titleHi": "मदद: PFMS स्टेटस चेक करने का तरीका", "url": "https://upscholarships.in/pfms-status-up-scholarship/", "enabled": true }
+    },
+    {
+      "id": "npci-aadhaar",
+      "type": "cards",
+      "order": 4,
+      "enabled": true,
+      "titleEn": "NPCI and Aadhaar link",
+      "titleHi": "NPCI और आधार लिंक",
+      "subtitleEn": "Without these, payment can fail",
+      "subtitleHi": "इनके बिना भुगतान फेल हो सकता है",
+      "items": [
+        {
+          "id": "aadhaar-link",
+          "titleEn": "Aadhaar-bank link",
+          "titleHi": "आधार-बैंक लिंक",
+          "subtitleEn": "Check status",
+          "subtitleHi": "स्टेटस चेक करें",
+          "url": "https://myaadhaar.uidai.gov.in/",
+          "icon": "user-check",
+          "color": "#7C3AED",
+          "enabled": true,
+          "comingSoon": false,
+          "help": { "titleEn": "Help: Aadhaar-bank link full process", "titleHi": "मदद: आधार-बैंक लिंक की पूरी प्रक्रिया", "url": "https://upscholarships.in/aadhaar-bank-seeding-status-check/", "enabled": true }
+        },
+        {
+          "id": "npci-seeding",
+          "titleEn": "NPCI seeding",
+          "titleHi": "NPCI सीडिंग",
+          "subtitleEn": "Check status",
+          "subtitleHi": "स्टेटस चेक करें",
+          "url": "https://www.npci.org.in/",
+          "icon": "link",
+          "color": "#0E7490",
+          "enabled": true,
+          "comingSoon": false,
+          "help": { "titleEn": "Help: NPCI seeding full process", "titleHi": "मदद: NPCI सीडिंग की पूरी प्रक्रिया", "url": "https://upscholarships.in/npci-bank-seeding-status-check/", "enabled": true }
+        }
+      ]
+    },
+    {
+      "id": "fund",
+      "type": "yearGrid",
+      "order": 5,
+      "enabled": true,
+      "titleEn": "Fund released, district-wise",
+      "titleHi": "फंड रिलीज़, जिला-वार",
+      "subtitleEn": "Pick a year to see the report",
+      "subtitleHi": "साल चुनें और रिपोर्ट देखें",
+      "items": [
+        { "id": "fund-2425", "titleEn": "2024-25", "titleHi": "2024-25", "url": "https://scholarship.up.gov.in/Session2425_Rep/Post_InstituteSummaryreport2425.aspx", "badgeEn": "New", "badgeHi": "नया", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "fund-2324", "titleEn": "2023-24", "titleHi": "2023-24", "url": "https://scholarship.up.gov.in/Session2324_Rep/Post_InstituteSummaryreport2324.aspx", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "fund-2223", "titleEn": "2022-23", "titleHi": "2022-23", "url": "https://scholarship.up.gov.in/Session2223_Rep/Post_InstituteSummaryreport2223.aspx", "older": false, "enabled": true, "comingSoon": false },
+        { "id": "fund-2122", "titleEn": "2021-22", "titleHi": "2021-22", "url": "https://scholarship.up.gov.in/Session2122_Rep/InstituteSummaryreport2122.aspx", "older": false, "enabled": true, "comingSoon": false }
+      ],
+      "footerLink": { "titleEn": "All previous reports (2010 to 2021) on official portal", "titleHi": "सभी पुरानी रिपोर्ट (2010 से 2021) आधिकारिक पोर्टल पर", "url": "https://scholarship.up.gov.in/report.aspx", "enabled": true }
+    },
+    {
+      "id": "official",
+      "type": "links",
+      "order": 6,
+      "enabled": true,
+      "titleEn": "Official websites",
+      "titleHi": "आधिकारिक वेबसाइट",
+      "subtitleEn": "Government portals",
+      "subtitleHi": "सरकारी पोर्टल",
+      "items": [
+        { "id": "official-up-scholarship", "titleEn": "UP Scholarship portal", "titleHi": "यूपी स्कॉलरशिप पोर्टल", "url": "https://scholarship.up.gov.in/", "icon": "globe", "enabled": true, "comingSoon": false },
+        { "id": "official-pfms", "titleEn": "PFMS portal", "titleHi": "PFMS पोर्टल", "url": "https://pfms.nic.in/", "icon": "globe", "enabled": true, "comingSoon": false },
+        { "id": "official-npci", "titleEn": "NPCI portal", "titleHi": "NPCI पोर्टल", "url": "https://www.npci.org.in/", "icon": "globe", "enabled": true, "comingSoon": false },
+        { "id": "official-uidai", "titleEn": "UIDAI (Aadhaar) portal", "titleHi": "UIDAI (आधार) पोर्टल", "url": "https://uidai.gov.in/", "icon": "globe", "enabled": true, "comingSoon": false }
+      ]
+    }
+  ]
+}
