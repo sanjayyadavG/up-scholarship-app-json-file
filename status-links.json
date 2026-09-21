@@ -114,7 +114,8 @@
       "subtitleHi": "लॉगिन नहीं हो रहा? यहाँ ठीक करें",
       "items": [
         { "id": "password-reset", "titleEn": "Forgot password? Reset guide", "titleHi": "पासवर्ड भूल गए? रीसेट गाइड", "url": "https://upscholarships.in/up-scholarship-password-change-reset-guide/", "icon": "key", "color": "#B45309", "enabled": true, "comingSoon": false },
-        { "id": "find-old-reg", "titleEn": "Find old registration number", "titleHi": "पुराना रजिस्ट्रेशन नंबर खोजें", "url": "https://upscholarships.in/up-scholarship-old-registration-number-find/", "icon": "search", "color": "#B45309", "enabled": true, "comingSoon": false }
+        { "id": "find-old-reg", "titleEn": "Find old registration number", "titleHi": "पुराना रजिस्ट्रेशन नंबर खोजें", "url": "https://upscholarships.in/up-scholarship-old-registration-number-find/", "icon": "search", "color": "#B45309", "enabled": true, "comingSoon": false },
+        { "id": "save-login-notes", "titleEn": "Save login details in Notes", "titleHi": "लॉगिन डिटेल्स नोट्स में सेव करें", "url": "/notes", "icon": "edit-3", "color": "#B45309", "enabled": true, "comingSoon": false }
       ]
     },
     {
@@ -298,7 +299,7 @@
     {
       "id": "yearwise",
       "type": "yearGrid",
-      "order": 7,
+      "order": 4,
       "enabled": true,
       "titleEn": "Year-wise status",
       "titleHi": "साल-दर-साल स्टेटस",
@@ -321,7 +322,7 @@
     {
       "id": "pfms",
       "type": "buttons",
-      "order": 4,
+      "order": 5,
       "enabled": true,
       "titleEn": "PFMS payment status",
       "titleHi": "PFMS भुगतान स्टेटस",
@@ -336,7 +337,7 @@
     {
       "id": "npci-aadhaar",
       "type": "cards",
-      "order": 5,
+      "order": 6,
       "enabled": true,
       "titleEn": "NPCI and Aadhaar link",
       "titleHi": "NPCI और आधार लिंक",
@@ -374,7 +375,7 @@
     {
       "id": "fund",
       "type": "yearGrid",
-      "order": 6,
+      "order": 7,
       "enabled": true,
       "titleEn": "Fund released, district-wise",
       "titleHi": "फंड रिलीज़, जिला-वार",
@@ -402,6 +403,19 @@
         { "id": "official-pfms", "titleEn": "PFMS portal", "titleHi": "PFMS पोर्टल", "url": "https://pfms.nic.in/", "icon": "globe", "enabled": true, "comingSoon": false },
         { "id": "official-npci", "titleEn": "NPCI portal", "titleHi": "NPCI पोर्टल", "url": "https://www.npci.org.in/", "icon": "globe", "enabled": true, "comingSoon": false },
         { "id": "official-uidai", "titleEn": "UIDAI (Aadhaar) portal", "titleHi": "UIDAI (आधार) पोर्टल", "url": "https://uidai.gov.in/", "icon": "globe", "enabled": true, "comingSoon": false }
+      ]
+    },
+    {
+      "id": "report",
+      "type": "buttons",
+      "order": 9,
+      "enabled": true,
+      "titleEn": "Link not working?",
+      "titleHi": "लिंक काम नहीं कर रहा?",
+      "subtitleEn": "Tell us which link is broken, we will fix it fast",
+      "subtitleHi": "बताइए कौन सा लिंक खराब है, हम जल्दी ठीक करेंगे",
+      "items": [
+        { "id": "report-telegram", "titleEn": "Tell us on Telegram", "titleHi": "टेलीग्राम पर बताएं", "url": "https://t.me/sanyasir", "icon": "send", "color": "#0284C7", "enabled": true, "comingSoon": false }
       ]
     }
   ]
