@@ -1,6 +1,32 @@
 {
-  "_readme": "enabled=false karne par wo link/section app se hat jata hai. comingSoon=true karne par button dikhega par 'Coming soon' likha aayega. Sections ka kram 'order' se, andar ke links ka kram jis tarah likhe hain usi se. buttonEn/buttonHi = us section ke buttons ka text.",
+  "_readme": "enabled=false karne par wo link/section app se hat jata hai. comingSoon=true karne par button dikhega par 'Coming soon' likha aayega. Sections ka kram 'order' se, andar ke links ka kram jis tarah likhe hain usi se. buttonEn/buttonHi = us section ke buttons ka text. nav = sabse upar ke jump button (target = section ki id).",
   "version": 1,
+  "nav": [
+    {
+      "id": "nav-login",
+      "titleEn": "Login / Status",
+      "titleHi": "लॉगिन / स्टेटस",
+      "icon": "log-in",
+      "color": "#15803D",
+      "target": "current"
+    },
+    {
+      "id": "nav-meaning",
+      "titleEn": "Status meaning",
+      "titleHi": "स्टेटस का मतलब",
+      "icon": "help-circle",
+      "color": "#B45309",
+      "target": "guide"
+    },
+    {
+      "id": "nav-money",
+      "titleEn": "Did money come?",
+      "titleHi": "पैसा आया?",
+      "icon": "credit-card",
+      "color": "#2563EB",
+      "target": "pfms"
+    }
+  ],
   "sections": [
     {
       "id": "current",
@@ -13,6 +39,42 @@
       "subtitleHi": "फ्रेश = नया कोर्स · रिन्यूअल = वही कोर्स आगे",
       "buttonEn": "Login / Status",
       "buttonHi": "लॉगिन / स्टेटस",
+      "info": {
+        "titleEn": "After login you can",
+        "titleHi": "लॉगिन के बाद आप कर सकते हैं",
+        "chips": [
+          {
+            "titleEn": "Fill form",
+            "titleHi": "फॉर्म भरना"
+          },
+          {
+            "titleEn": "Correction",
+            "titleHi": "सुधार (करेक्शन)"
+          },
+          {
+            "titleEn": "Upload documents",
+            "titleHi": "डॉक्यूमेंट अपलोड"
+          },
+          {
+            "titleEn": "Final submit",
+            "titleHi": "फाइनल सबमिट"
+          },
+          {
+            "titleEn": "Print",
+            "titleHi": "प्रिंट"
+          },
+          {
+            "titleEn": "Check status",
+            "titleHi": "स्टेटस देखना"
+          },
+          {
+            "titleEn": "Password reset",
+            "titleHi": "पासवर्ड रीसेट"
+          }
+        ],
+        "needEn": "Keep ready: Registration no. and Password",
+        "needHi": "तैयार रखें: रजिस्ट्रेशन नंबर और पासवर्ड"
+      },
       "tabs": [
         {
           "id": "fresh",
@@ -20,9 +82,9 @@
           "titleHi": "फ्रेश",
           "color": "#15803D",
           "items": [
-            { "id": "fresh-9-10", "titleEn": "Class 9, 10", "titleHi": "कक्षा 9, 10", "url": "https://scholarship.up.gov.in/LoginStudentPreFresh.aspx", "enabled": true, "comingSoon": false },
-            { "id": "fresh-11-12", "titleEn": "Class 11, 12", "titleHi": "कक्षा 11, 12", "url": "https://scholarship.up.gov.in/LoginStudentPostInter.aspx", "enabled": true, "comingSoon": false },
-            { "id": "fresh-ug-pg", "titleEn": "UG / PG / Diploma", "titleHi": "UG / PG / डिप्लोमा", "url": "https://scholarship.up.gov.in/LoginStudentPost.aspx", "enabled": true, "comingSoon": false },
+            { "id": "fresh-9-10", "titleEn": "Class 9, 10", "titleHi": "कक्षा 9, 10", "subtitleEn": "Prematric", "subtitleHi": "प्रीमैट्रिक", "url": "https://scholarship.up.gov.in/LoginStudentPreFresh.aspx", "enabled": true, "comingSoon": false },
+            { "id": "fresh-11-12", "titleEn": "Class 11, 12", "titleHi": "कक्षा 11, 12", "subtitleEn": "Intermediate", "subtitleHi": "इंटरमीडिएट", "url": "https://scholarship.up.gov.in/LoginStudentPostInter.aspx", "enabled": true, "comingSoon": false },
+            { "id": "fresh-ug-pg", "titleEn": "UG / PG / Diploma", "titleHi": "UG / PG / डिप्लोमा", "subtitleEn": "Postmatric", "subtitleHi": "पोस्टमैट्रिक", "url": "https://scholarship.up.gov.in/LoginStudentPost.aspx", "enabled": true, "comingSoon": false },
             { "id": "fresh-other-state", "titleEn": "Other State", "titleHi": "अन्य राज्य", "url": "https://scholarship.up.gov.in/LoginStudentPostOS.aspx", "enabled": true, "comingSoon": false }
           ]
         },
@@ -32,9 +94,9 @@
           "titleHi": "रिन्यूअल",
           "color": "#9F1239",
           "items": [
-            { "id": "renewal-10", "titleEn": "Class 10", "titleHi": "कक्षा 10", "url": "https://scholarship.up.gov.in/LoginStudentPreRenew.aspx", "enabled": true, "comingSoon": false },
-            { "id": "renewal-12", "titleEn": "Class 12", "titleHi": "कक्षा 12", "url": "https://scholarship.up.gov.in/LoginStudentPostRenewInter.aspx", "enabled": true, "comingSoon": false },
-            { "id": "renewal-ug-pg", "titleEn": "UG / PG / Diploma", "titleHi": "UG / PG / डिप्लोमा", "url": "https://scholarship.up.gov.in/LoginStudentPostRenew.aspx", "enabled": true, "comingSoon": false },
+            { "id": "renewal-10", "titleEn": "Class 10", "titleHi": "कक्षा 10", "subtitleEn": "Prematric", "subtitleHi": "प्रीमैट्रिक", "url": "https://scholarship.up.gov.in/LoginStudentPreRenew.aspx", "enabled": true, "comingSoon": false },
+            { "id": "renewal-12", "titleEn": "Class 12", "titleHi": "कक्षा 12", "subtitleEn": "Intermediate", "subtitleHi": "इंटरमीडिएट", "url": "https://scholarship.up.gov.in/LoginStudentPostRenewInter.aspx", "enabled": true, "comingSoon": false },
+            { "id": "renewal-ug-pg", "titleEn": "UG / PG / Diploma", "titleHi": "UG / PG / डिप्लोमा", "subtitleEn": "Postmatric", "subtitleHi": "पोस्टमैट्रिक", "url": "https://scholarship.up.gov.in/LoginStudentPostRenew.aspx", "enabled": true, "comingSoon": false },
             { "id": "renewal-other-state", "titleEn": "Other State", "titleHi": "अन्य राज्य", "url": "https://scholarship.up.gov.in/LoginStudentPostRenewOS.aspx", "enabled": true, "comingSoon": false }
           ]
         }
@@ -56,9 +118,187 @@
       ]
     },
     {
+      "id": "guide",
+      "type": "guide",
+      "order": 3,
+      "enabled": true,
+      "titleEn": "What does my status mean?",
+      "titleHi": "मेरे स्टेटस का मतलब क्या है?",
+      "subtitleEn": "Open your status page and compare, step by step",
+      "subtitleHi": "अपना स्टेटस पेज खोलकर एक-एक स्टेप मिलाएं",
+      "noteEn": "Sometimes one phase shows Pending while the later steps still move ahead. Do not worry at once.",
+      "noteHi": "कभी-कभी एक फेज़ 'Pending' दिखता है, फिर भी आगे के स्टेप बढ़ जाते हैं। तुरंत घबराएं नहीं।",
+      "footnoteEn": "At the bottom of your status page, Result and Attendance are filled by your college.",
+      "footnoteHi": "स्टेटस पेज के नीचे रिज़ल्ट और अटेंडेंस आपका कॉलेज भरता है।",
+      "groups": [
+        {
+          "id": "g-you",
+          "shortEn": "You",
+          "shortHi": "आप",
+          "titleEn": "Your work",
+          "titleHi": "आपका काम",
+          "whoEn": "Done by you (student)",
+          "whoHi": "आप (छात्र) करते हैं",
+          "color": "#15803D",
+          "phases": [
+            {
+              "id": "phase-1",
+              "number": 1,
+              "titleEn": "One Time Registration (OTR)",
+              "titleHi": "One Time Registration (OTR)",
+              "textEn": "Your one-time registration is complete.",
+              "textHi": "आपका एक बार का रजिस्ट्रेशन पूरा हो गया।"
+            },
+            {
+              "id": "phase-2",
+              "number": 2,
+              "titleEn": "Registration/Reference Number",
+              "titleHi": "Registration/Reference Number",
+              "textEn": "You got your registration number. Keep it safe, you need it to login.",
+              "textHi": "आपको रजिस्ट्रेशन नंबर मिल गया। इसे संभालकर रखें, लॉगिन में चाहिए।"
+            },
+            {
+              "id": "phase-3",
+              "number": 3,
+              "titleEn": "Final Submission",
+              "titleHi": "Final Submission",
+              "textEn": "Your form is finally submitted.",
+              "textHi": "आपका फॉर्म फाइनल सबमिट हो गया।"
+            }
+          ],
+          "stuckEn": "If any of these is not Completed, login and finish the form first. Lost your number or password? See 'Login problem?' above.",
+          "stuckHi": "इनमें से कोई 'Completed' नहीं है तो लॉगिन करके फॉर्म पूरा करें। नंबर या पासवर्ड भूल गए? ऊपर 'लॉगिन में दिक्कत?' देखें।"
+        },
+        {
+          "id": "g-college",
+          "shortEn": "College",
+          "shortHi": "कॉलेज",
+          "titleEn": "College and university",
+          "titleHi": "कॉलेज और यूनिवर्सिटी",
+          "whoEn": "Done by your college or school",
+          "whoHi": "आपका कॉलेज या स्कूल करता है",
+          "color": "#B45309",
+          "phases": [
+            {
+              "id": "phase-4",
+              "number": 4,
+              "titleEn": "Status at Institution Level",
+              "titleHi": "Status at Institution Level",
+              "textEn": "Your college or school checked the form and sent it ahead. 'Verified & Forwarded' is good news.",
+              "textHi": "आपके कॉलेज या स्कूल ने फॉर्म जाँचकर आगे भेज दिया। 'Verified & Forwarded' अच्छी बात है।"
+            },
+            {
+              "id": "phase-5",
+              "number": 5,
+              "titleEn": "Uni./Affi. Agency/DIOS Level",
+              "titleHi": "Uni./Affi. Agency/DIOS Level",
+              "textEn": "The office above your college (university, affiliating agency or DIOS) checked the form.",
+              "textHi": "कॉलेज से ऊपर के ऑफिस (यूनिवर्सिटी, एफिलिएटिंग एजेंसी या DIOS) ने फॉर्म जाँचा।"
+            },
+            {
+              "id": "phase-6",
+              "number": 6,
+              "titleEn": "Data level after scrutiny with reason",
+              "titleHi": "Data level after scrutiny with reason",
+              "textEn": "After checking, your data shows Correct. If there is a mistake, the reason is written here.",
+              "textHi": "जाँच के बाद आपका डेटा 'Correct' दिखता है। गलती हो तो यहाँ कारण लिखा होता है।"
+            }
+          ],
+          "stuckEn": "If it stays here for long, ask your college office. If a reason is written, correct the mistake as told.",
+          "stuckHi": "यहाँ लंबे समय से रुका हो तो अपने कॉलेज के ऑफिस में पूछें। कारण लिखा हो तो उसके अनुसार गलती सुधारें।"
+        },
+        {
+          "id": "g-pfms",
+          "shortEn": "PFMS",
+          "shortHi": "PFMS",
+          "titleEn": "Bank check (PFMS)",
+          "titleHi": "बैंक जाँच (PFMS)",
+          "whoEn": "Done by the PFMS system",
+          "whoHi": "PFMS सिस्टम करता है",
+          "color": "#2563EB",
+          "phases": [
+            {
+              "id": "phase-7",
+              "number": 7,
+              "titleEn": "PFMS Verification Status",
+              "titleHi": "PFMS Verification Status",
+              "textEn": "PFMS checks your bank account and Aadhaar. 'Pending Response from PFMS' means waiting for their reply.",
+              "textHi": "PFMS आपके बैंक खाते और आधार की जाँच करता है। 'Pending Response from PFMS' का मतलब उनके जवाब का इंतज़ार है।"
+            }
+          ],
+          "stuckEn": "Pending for many days? Check your Aadhaar-bank link and NPCI status in the 'Did money come?' part below, and make sure your bank account is active.",
+          "stuckHi": "कई दिन से Pending है तो नीचे 'पैसा आया?' वाले हिस्से में आधार-बैंक लिंक और NPCI स्टेटस देखें, और बैंक खाता चालू है यह पक्का करें।",
+          "help": {
+            "titleEn": "Help: PFMS status step by step",
+            "titleHi": "मदद: PFMS स्टेटस चेक करने का तरीका",
+            "url": "https://upscholarships.in/pfms-status-up-scholarship/",
+            "enabled": true
+          }
+        },
+        {
+          "id": "g-district",
+          "shortEn": "District",
+          "shortHi": "जिला",
+          "titleEn": "District and Directorate",
+          "titleHi": "जिला और निदेशालय",
+          "whoEn": "Done by government offices",
+          "whoHi": "सरकारी कार्यालय करते हैं",
+          "color": "#7C3AED",
+          "phases": [
+            {
+              "id": "phase-8",
+              "number": 8,
+              "titleEn": "Verification by District Scholarship Sanction Committee",
+              "titleHi": "Verification by District Scholarship Sanction Committee",
+              "textEn": "The district committee approved your form. 'Verified' is good news.",
+              "textHi": "जिले की समिति ने आपका फॉर्म मंज़ूर किया। 'Verified' अच्छी बात है।"
+            },
+            {
+              "id": "phase-9",
+              "number": 9,
+              "titleEn": "Blocked by Directorate",
+              "titleHi": "Blocked by Directorate",
+              "textEn": "This should stay empty. If something is written, your form was stopped for the reason shown.",
+              "textHi": "यह खाली रहना चाहिए। कुछ लिखा हो तो बताए गए कारण से आपका फॉर्म रोका गया है।"
+            }
+          ],
+          "stuckEn": "You cannot speed this up, wait for the office to act. If it says Blocked, note the reason and ask your college or the district social welfare office.",
+          "stuckHi": "इसे तेज़ नहीं किया जा सकता, ऑफिस की कार्रवाई का इंतज़ार करें। 'Blocked' दिखे तो कारण नोट करें और कॉलेज या जिला समाज कल्याण कार्यालय में पूछें।"
+        },
+        {
+          "id": "g-payment",
+          "shortEn": "Money",
+          "shortHi": "पैसा",
+          "titleEn": "Payment",
+          "titleHi": "भुगतान",
+          "whoEn": "Sent to your bank account",
+          "whoHi": "आपके बैंक खाते में भेजा जाता है",
+          "color": "#0E7490",
+          "phases": [
+            {
+              "id": "phase-10",
+              "number": 10,
+              "titleEn": "Payment Status",
+              "titleHi": "Payment Status",
+              "textEn": "Shows how much was sent (scholarship and fee reimbursement), to which account, and on which date.",
+              "textHi": "कितना पैसा भेजा गया (स्कॉलरशिप और फीस रीइम्बर्समेंट), किस खाते में और किस तारीख को, यह दिखता है।"
+            }
+          ],
+          "stuckEn": "Shown as sent but not in your account? Check PFMS payment status, and your Aadhaar and NPCI link. The money goes to the account shown on that line.",
+          "stuckHi": "'भेजा गया' दिखे पर खाते में न आया हो तो PFMS पेमेंट स्टेटस और आधार व NPCI लिंक देखें। पैसा उसी खाते में जाता है जो उस लाइन में दिखता है।",
+          "help": {
+            "titleEn": "Help: Aadhaar-bank link full process",
+            "titleHi": "मदद: आधार-बैंक लिंक की पूरी प्रक्रिया",
+            "url": "https://upscholarships.in/aadhaar-bank-seeding-status-check/",
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
       "id": "yearwise",
       "type": "yearGrid",
-      "order": 3,
+      "order": 7,
       "enabled": true,
       "titleEn": "Year-wise status",
       "titleHi": "साल-दर-साल स्टेटस",
@@ -151,7 +391,7 @@
     {
       "id": "official",
       "type": "links",
-      "order": 7,
+      "order": 8,
       "enabled": true,
       "titleEn": "Official websites",
       "titleHi": "आधिकारिक वेबसाइट",
