@@ -115,7 +115,7 @@
       "items": [
         { "id": "password-reset", "titleEn": "Forgot password? Reset guide", "titleHi": "पासवर्ड भूल गए? रीसेट गाइड", "url": "https://upscholarships.in/up-scholarship-password-change-reset-guide/", "icon": "key", "color": "#B45309", "enabled": true, "comingSoon": false },
         { "id": "find-old-reg", "titleEn": "Find old registration number", "titleHi": "पुराना रजिस्ट्रेशन नंबर खोजें", "url": "https://upscholarships.in/up-scholarship-old-registration-number-find/", "icon": "search", "color": "#B45309", "enabled": true, "comingSoon": false },
-        { "id": "find-otr", "titleEn": "Forgot OTR number? Recover guide", "titleHi": "OTR नंबर भूल गए? रिकवर गाइड", "url": "https://upscholarships.in/up-scholarship-otr-number-forgot-recover/", "icon": "rotate-ccw", "color": "#B45309", "enabled": true, "comingSoon": false },
+        { "id": "find-otr", "titleEn": "Forgot OTR No.? Recover guide", "titleHi": "OTR नंबर भूल गए? रिकवर गाइड", "url": "https://upscholarships.in/up-scholarship-otr-number-forgot-recover/", "icon": "rotate-ccw", "color": "#B45309", "enabled": true, "comingSoon": false },
         { "id": "save-login-notes", "titleEn": "Save login details in Notes", "titleHi": "लॉगिन डिटेल्स नोट्स में सेव करें", "url": "/notes", "icon": "edit-3", "color": "#B45309", "enabled": true, "comingSoon": false }
       ]
     },
