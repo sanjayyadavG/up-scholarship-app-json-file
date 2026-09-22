@@ -5,7 +5,7 @@
     "startDate": "2026-08-11",
 
     "statusOverride": {
-      "enabled": false,
+      "enabled": true,
       "type": "warning",
       "shortTextEn": "Extending",
       "shortTextHi": "बढ़ रहा है",
