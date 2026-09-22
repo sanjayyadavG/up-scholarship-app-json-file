@@ -3,6 +3,50 @@
     "title": "Pre-Matric & Inter (Class 9-12)",
     "deadline": "2026-09-21",
     "startDate": "2026-08-11",
+
+    "statusOverride": {
+      "enabled": false,
+      "type": "warning",
+      "shortTextEn": "Extending",
+      "shortTextHi": "बढ़ रहा है",
+      "longTextEn": "Last date has passed. Applications may reopen soon - we'll update this page as soon as an official new date is announced.",
+      "longTextHi": "अंतिम तारीख निकल चुकी है। आवेदन जल्द फिर से खुल सकते हैं - जैसे ही नई तारीख की आधिकारिक घोषणा होगी, यहाँ अपडेट कर दिया जाएगा।"
+    },
+
+    "importantDates": {
+      "lastUpdated": "22 September 2026",
+      "rows": [
+        {
+          "event": "Online Application Start Date",
+          "fresh": "11 August 2026",
+          "renewal": "11 August 2026"
+        },
+        {
+          "event": "Last Date to Apply Online",
+          "fresh": "21 September 2026",
+          "renewal": "25 August 2026"
+        },
+        {
+          "event": "Submit Hard Copy to School",
+          "fresh": "05 October 2026",
+          "renewal": "25 August 2026"
+        },
+        {
+          "event": "Correction Window (Edit Form)",
+          "fresh": "16 Nov - 14 Dec 2026",
+          "renewal": "17 Sep - 10 Oct 2026"
+        },
+        {
+          "event": "Scholarship Amount Distribution",
+          "fresh": "25 Jan - 31 Jan 2027",
+          "renewal": "29 Sep - 31 Oct 2026"
+        }
+      ],
+      "footerText": "For latest date information, visit official site",
+      "footerLinkText": "scholarship.up.gov.in",
+      "footerLinkUrl": "https://scholarship.up.gov.in"
+    },
+
     "classes": [
       "Class 9",
       "Class 10",
@@ -27,10 +71,55 @@
       "Renewal students must apply before 25 August 2026"
     ]
   },
+
   "postmatric": {
     "title": "Post-Matric Scholarship (Dashmottar)",
     "deadline": "2026-10-31",
     "startDate": "2026-09-15",
+
+    "statusOverride": {
+      "enabled": false,
+      "type": "info",
+      "shortTextEn": "Coming soon",
+      "shortTextHi": "जल्द आ रहा है",
+      "longTextEn": "New date coming soon. We'll update this page as soon as an official announcement is made.",
+      "longTextHi": "नई तारीख जल्द आएगी। जैसे ही आधिकारिक घोषणा होगी, यहाँ अपडेट कर दिया जाएगा।"
+    },
+
+    "importantDates": {
+      "lastUpdated": "22 September 2026",
+      "rows": [
+        {
+          "event": "Online Application Start Date",
+          "fresh": "15 September 2026",
+          "renewal": "15 September 2026"
+        },
+        {
+          "event": "Last Date to Apply Online",
+          "fresh": "31 October 2026",
+          "renewal": "15 October 2026"
+        },
+        {
+          "event": "Submit Hard Copy to College",
+          "fresh": "04 November 2026",
+          "renewal": "15 October 2026"
+        },
+        {
+          "event": "Correction Window (Edit Form)",
+          "fresh": "06 Dec - 31 Dec 2026",
+          "renewal": "21 Nov - 20 Dec 2026"
+        },
+        {
+          "event": "Scholarship Amount Distribution",
+          "fresh": "21 Dec - 31 Jan 2027",
+          "renewal": "01 Dec - 25 Jan 2027"
+        }
+      ],
+      "footerText": "For latest date information, visit official site",
+      "footerLinkText": "scholarship.up.gov.in",
+      "footerLinkUrl": "https://scholarship.up.gov.in"
+    },
+
     "courses": [
       "UG (BA, B.Sc, B.Com, B.Tech, BBA, BCA, etc.)",
       "PG (MA, M.Sc, M.Com, MBA, MCA, etc.)",
