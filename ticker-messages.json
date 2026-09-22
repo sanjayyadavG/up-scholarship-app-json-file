@@ -8,10 +8,10 @@
       "targetDate": "2026-09-21",
       "icon": "alert-circle",
       "urgent": true,
-      "active": true,
-      "isNew": true,
+      "active": false,
+      "isNew": false,
       "expiresOn": "2026-09-21",
-      "order": 1
+      "order": 6
     },
     {
       "id": "2",
@@ -73,10 +73,23 @@
       "targetDate": "2026-12-06",
       "icon": "calendar",
       "urgent": false,
-      "active": true,
+      "active": false,
       "isNew": true,
       "expiresOn": "2026-12-31",
-      "order": 6
+      "order": 7
+    },
+    {
+      "id": "7",
+      "textEn": "Pre-Matric (Fresh): 21 Sept deadline has closed — check back for extension updates",
+      "textHi": "प्री-मैट्रिक (नया आवेदन): 21 सितंबर की तिथि समाप्त — विस्तार (extension) की सूचना जल्द अपडेट होगी",
+      "link": "/scholarship/prematric",
+      "targetDate": "2026-09-21",
+      "icon": "alert-circle",
+      "urgent": false,
+      "active": true,
+      "isNew": true,
+      "expiresOn": "2026-10-31",
+      "order": 1
     }
   ]
 }
