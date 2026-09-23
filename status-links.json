@@ -408,7 +408,36 @@
       "subtitleEn": "Tell us which link is broken, we will fix it fast",
       "subtitleHi": "बताइए कौन सा लिंक खराब है, हम जल्दी ठीक करेंगे",
       "items": [
-        { "id": "report-telegram", "titleEn": "Tell us on Telegram", "titleHi": "टेलीग्राम पर बताएं", "url": "https://t.me/sanyasir", "icon": "send", "color": "#0284C7", "enabled": true, "comingSoon": false }
+        {
+          "id": "report-whatsapp",
+          "titleEn": "Tell us on WhatsApp",
+          "titleHi": "व्हाट्सएप पर बताएं",
+          "url": "https://wa.me/91XXXXXXXXXX",
+          "icon": "message-circle",
+          "color": "#25D366",
+          "enabled": true,
+          "comingSoon": true
+        },
+        {
+          "id": "report-telegram",
+          "titleEn": "Tell us on Telegram",
+          "titleHi": "टेलीग्राम पर बताएं",
+          "url": "https://t.me/sanyasir",
+          "icon": "send",
+          "color": "#0284C7",
+          "enabled": true,
+          "comingSoon": false
+        },
+        {
+          "id": "report-email",
+          "titleEn": "Send us an Email",
+          "titleHi": "हमें ईमेल भेजें",
+          "url": "mailto:sanyademyofficial@gmail.com",
+          "icon": "mail",
+          "color": "#DC2626",
+          "enabled": true,
+          "comingSoon": true
+        }
       ]
     }
   ]
