@@ -436,7 +436,7 @@
           "icon": "mail",
           "color": "#DC2626",
           "enabled": true,
-          "comingSoon": true
+          "comingSoon": false
         }
       ]
     }
