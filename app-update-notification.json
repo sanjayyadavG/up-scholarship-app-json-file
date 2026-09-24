@@ -1,0 +1,10 @@
+{
+  "latestVersionCode": 12,
+  "minVersionCode": 1,
+  "latestVersionName": "1.2.0",
+  "messageHi": "ऐप का नया वर्शन आ गया है। नए फीचर्स और सुधार पाने के लिए अभी अपडेट करें।",
+  "messageEn": "A new version of the app is available. Update now to get new features and fixes.",
+  "whatsNewHi": ["बेहतर सर्च", "PDF व्यूअर में सुधार"],
+  "whatsNewEn": ["Better search", "PDF viewer improvements"],
+  "storeUrl": "https://play.google.com/store/apps/details?id=in.upscholarships.app"
+}
