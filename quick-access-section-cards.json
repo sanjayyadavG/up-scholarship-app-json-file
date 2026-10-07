@@ -59,8 +59,8 @@
     {
       "id": "login",
       "type": "action",
-      "titleEn": "Login",
-      "titleHi": "लॉगिन",
+      "titleEn": "Login | Correction",
+      "titleHi": "लॉगिन | सुधार",
       "subtitleEn": "Student Login Portal",
       "subtitleHi": "छात्र लॉगिन पोर्टल",
       "emoji": "🔑",
