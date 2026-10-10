@@ -7,10 +7,10 @@
     "statusOverride": {
       "enabled": true,
       "type": "warning",
-      "shortTextEn": "Extending",
-      "shortTextHi": "बढ़ रहा है",
-      "longTextEn": "Last date has passed. Applications may reopen soon - we'll update this page as soon as an official new date is announced.",
-      "longTextHi": "अंतिम तारीख निकल चुकी है। आवेदन जल्द फिर से खुल सकते हैं - जैसे ही नई तारीख की आधिकारिक घोषणा होगी, यहाँ अपडेट कर दिया जाएगा।"
+      "shortTextEn": "Portal Reopened",
+      "shortTextHi": "पोर्टल फिर खुला",
+      "longTextEn": "The application portal is open again. The new last date has not been officially announced yet. Apply as soon as possible.",
+      "longTextHi": "आवेदन पोर्टल फिर से खुल गया है। नई अंतिम तिथि की आधिकारिक घोषणा अभी नहीं हुई है। जल्द से जल्द आवेदन करें।"
     },
 
     "importantDates": {
