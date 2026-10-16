@@ -322,8 +322,8 @@
       "subtitleEn": "Check if the money reached your bank",
       "subtitleHi": "देखें पैसा बैंक खाते में आया या नहीं",
       "items": [
-        { "id": "pfms-bank", "titleEn": "By bank account", "titleHi": "बैंक खाते से", "url": "https://pfms.nic.in/SitePages/KnowYourPayment_Dw_NewNew.aspx", "icon": "credit-card", "color": "#2563EB", "enabled": true, "comingSoon": false },
-        { "id": "pfms-dbt", "titleEn": "DBT status by registration no.", "titleHi": "रजिस्ट्रेशन नंबर से DBT स्टेटस", "url": "https://pfms.nic.in/SitePages/DBT_StatusTracker.aspx", "icon": "hash", "color": "#2563EB", "enabled": true, "comingSoon": false }
+        { "id": "pfms-bank", "titleEn": "By bank account", "titleHi": "बैंक खाते से", "url": "https://pfms.gov.in/SitePages/KnowYourPayment_Dw_NewNew.aspx", "icon": "credit-card", "color": "#2563EB", "enabled": true, "comingSoon": false },
+        { "id": "pfms-dbt", "titleEn": "DBT status by registration no.", "titleHi": "रजिस्ट्रेशन नंबर से DBT स्टेटस", "url": "https://pfms.gov.in/SitePages/DBT_StatusTracker.aspx", "icon": "hash", "color": "#2563EB", "enabled": true, "comingSoon": false }
       ],
       "help": { "titleEn": "Help: PFMS status step by step", "titleHi": "मदद: PFMS स्टेटस चेक करने का तरीका", "url": "https://upscholarships.in/pfms-status-up-scholarship/", "enabled": true }
     },
