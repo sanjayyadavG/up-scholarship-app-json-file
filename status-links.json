@@ -393,7 +393,7 @@
       "subtitleHi": "सरकारी पोर्टल",
       "items": [
         { "id": "official-up-scholarship", "titleEn": "UP Scholarship portal", "titleHi": "यूपी स्कॉलरशिप पोर्टल", "url": "https://scholarship.up.gov.in/", "icon": "globe", "enabled": true, "comingSoon": false },
-        { "id": "official-pfms", "titleEn": "PFMS portal", "titleHi": "PFMS पोर्टल", "url": "https://pfms.nic.in/", "icon": "globe", "enabled": true, "comingSoon": false },
+        { "id": "official-pfms", "titleEn": "PFMS portal", "titleHi": "PFMS पोर्टल", "url": "https://pfms.gov.in/", "icon": "globe", "enabled": true, "comingSoon": false },
         { "id": "official-npci", "titleEn": "NPCI portal", "titleHi": "NPCI पोर्टल", "url": "https://www.npci.org.in/", "icon": "globe", "enabled": true, "comingSoon": false },
         { "id": "official-uidai", "titleEn": "UIDAI (Aadhaar) portal", "titleHi": "UIDAI (आधार) पोर्टल", "url": "https://uidai.gov.in/", "icon": "globe", "enabled": true, "comingSoon": false }
       ]
